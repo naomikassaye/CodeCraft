@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft | FrontEnd Development Hub</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span>CodeCraft</span>
+                </div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Industry Insights</a></li>
+                    <li><a href="">Technology Radar</a></li>
+                    <li><a href="">Learning Roadmap</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Mentors</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h1>Master Frontend Development in 2024</h1>
+            <p>Join our community of developers and stay ahead with the latest trends, tools, and techniques in frontend
+                development. Learn, build, and grow with CodeCraft.</p>
+            <a href="">Start learning</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h3>Industry Insights</h3>
+            <div>
+                <h2> Salary Trend</h2>
+                <p><strong> Junior Frontend Developer: </strong>&dollar;55k-&dollar;75k(US),&euro;28k-&euro;42k(UK)</p>
+                <p><strong> Mid-Level Frontend: </strong>&dollar;75k-&dollar;110k(US),&euro;42k-&euro;-65k(UK)</p>
+                <p><strong> Senior Frontend Engineer: </strong>&dollar;110k-&dollar;160k(US),&euro;65k-&euro;95k(UK)</p>
+                <p><strong> Freelance Rates: </strong>&dollar;40-&dollar;120/hr depending on experience and region</p>
+            </div>
+            <div>
+                <h2>Job Market</h2>
+                <p><strong>Top Hiring Companies: </strong>Google, Meta, Shopify</p>
+                <p><strong>Trending startups: </strong>Figma, Notion</p>
+                <p><strong>Key In-Demand Skills: </strong></p>
+                <ul>
+                    <li>React.js / Next.js(72% of job postings)</li>
+                    <li>TypeScript</li>
+                    <li>Tailwind CSS</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Frontend Tech Radar 2024</h2>
+            <div>
+                <div>Trends</div>
+                <div>Tools</div>
+                <div>Deployment</div>
+            </div>
+            <div>
+                <ul>
+                    <li>React still leads, but Qwik and Svelte are rising</li>
+                    <li>Tailwind CSS is now the go-to for styling</li>
+                    <li>Vite and Turbopack are replacing Webpack</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li><strong>Frameworks:</strong> React, Next.js, Svelte</li>
+                <li><strong>Styling:</strong> Tailwind CSS, SCSS</li>
+                <li><strong>Build:</strong> Vite, Turbopack</li>
+                <li><strong>Design:</strong> Figma, Storybook</li>
+                <li><strong>Emerging:</strong> Bun, HTMX</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Next.js + Vercel for fullstack apps</li>
+                <li>React + Netlify for Jamstack</li>
+                <li>Astro/SvelteKit + Cloudflare for static sites</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <h2>Learning Roadmaps</h2>
+            <div>
+                <div>
+                    <h3> Frontend in 2025 path</h3>
+                    <ol>
+                        <li><strong>HTML/CSS Fundamentals:</strong>Semantic HTML, Flexbox, Grid</li>
+                        <li><strong>JavaScript Core: </strong>ES6+, DOM Manipulation, Async JS</li>
+                        <li><strong>React/Vue/Svelte:</strong>Components, State Management</li>
+                        <li><strong>TypeScript:</strong>Static Typing for JavaScript</li>
+                        <li><strong>Testing:</strong>Jest, React Testing Library, Cypress</li>
+                    </ol>
+                </div>
+                <div>
+                    <h3>Specialization Paths</h3>
+                    <details>
+                        <summary>UI/UX Focus</summary>
+                        <ul>
+                            <li><strong>Figma for prototyping </strong></li>
+                            <li><strong>Framer for animations </strong></li>
+                            <li><strong>Design systems </strong></li>
+                            <li><strong>User research basis </strong></li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Performance Optimization</summary>
+                        <ul>
+                            <li>Web Vitals metrics</li>
+                            <li>Lighthouse audits</li>
+                            <li>Bundle size reduction</li>
+                            <li>Lazy loading</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Accessibility</summary>
+                        <ul>
+                            <li>WCAG guidelines</li>
+                            <li>ARIA attributes</li>
+                            <li>Screen reader testing</li>
+                            <li>Color contrast</li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Frontend Courses</h2>
+            <div>
+                <div>
+                    <input type="text" placeholder="Search courses..." id="coursesearch">
+                </div>
+                <div>
+                    <select id="courses">
+                        <option value="All">All Levels </option>
+                        <option value="Beginner"> Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                </div>
+                <button id="addbtn" class="btn"> Add Course</button>
+            </div>
+        </div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Difficulty</th>
+                    <th>Duration</th>
+                    <th>Salary Potential</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>HTML/CSS Fundamentals</td>
+                    <td>Beginner</td>
+                    <td>4 weeks</td>
+                    <td>&dollar;60k-&dollar;80k</td>
+                </tr>
+                <tr>
+                    <td>JavaScript Deep Dive</td>
+                    <td> Intermediate</td>
+                    <td> 6 weeks</td>
+                    <td>&dollar;80k-&dollar;120k</td>
+                </tr>
+                <tr>
+                    <td> React Masterclass</td>
+                    <td>Intermediate</td>
+                    <td> 8 weeks</td>
+                    <td>&dollar;90k-&dollar;140k</td>
+                </tr>
+                <tr>
+                    <td>Advanced TypeScript</td>
+                    <td>Advanced</td>
+                    <td>5 weeks</td>
+                    <td>&dollar;100k-&dollar;160k</td>
+                </tr>
+                <tr>
+                    <td> Frontend Performance</td>
+                    <td> Advanced</td>
+                    <td> 4 weeks</td>
+                    <td>&dollar;110k-&dollar;170k</td>
+                </tr>
+            </thead>
+        </table>
+    </section>
+
+    <section>
+        <div>
+            <h2>Project Showcase</h2>
+            <div>
+                <div>
+                    <div>
+                        <img src="data:image/png;base64,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" alt="">
+                    </div>
+                    <div>
+                        <h2>Twitter UI Clone</h2>
+                        <p>Build a responsive Twitter interface with React and Tailwind CSS</p>
+                        <div>
+                            <span>Tailwind</span>
+                            <span>React</span>
+                            <span> Responsive</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div>
+                <div>
+                    <div>
+                        <img src="data:image/png;base64,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" alt="Spotify">
+                    </div>
+                    <div>
+                        <h2>Spotify Player</h2>
+                        <p>Music player application with Spotify API integration</p>
+                        <div>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div>
+                <div>
+                    <div>
+                        <img src="data:image/jpeg;base64,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" alt="E-commerce">
+                    </div>
+                    <div>
+                        <h2>E-commerce Dashboard</h2>
+                        <p>Admin dashboard for e-commerce with product management</p>
+                        <div>
+                            <span>Vue</span>
+                            <span>Chart.js</span>
+                            <span> Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+    </section>
+
+    <section>
+        <div>
+            <h2>Meet Our Mentors</h2>
+            <div>
+                <div>
+                    <img src="https://yourcodecrafthub.netlify.app/feti.jpg" alt="photo of Fathia" height="250px" width="200px">
+                </div>
+                <div>
+                    <h2>Fathia Abdurahim</h2>
+                    <p>Fullstack Developer</p>
+                </div>
+                <div>
+                    <a href="">Github</a>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://yourcodecrafthub.netlify.app/dandi.jpg" alt="" height="250px" width="200px">
+                </div>
+                <div>
+                    <h2>Dandi Hirko</h2>
+                    <p>Fullstack Developer</p>
+                </div>
+                <div>
+                    <a href="">Github</a>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://yourcodecrafthub.netlify.app/nafi.jpg" alt="" height="250px" width="200px">
+                </div>
+                <div>
+                    <h2>Nafargi Damena</h2>
+                    <p>Fullstack Developer and Visual Artist</p>
+                </div>
+                <div>
+                    <a href="">Github</a>
+                    <a href="">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Interactive Element</h2><br>
+        </div>
+        <div>
+            <div>
+                <h2>Salary Calculator</h2>
+                <div>
+                    <label> Years of Experience:</label>
+                    <select>
+                        <option value="0-1">0-1(Junior)</option>
+                        <option value="2-4">2-4 years(Mid-Level)</option>
+                        <option value="4-6">4-6 years(Senior)</option>
+                    </select>
+                </div>
+                <div>
+                     <label>Location:</label>
+                    <select>
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="eur">Europe</option>
+                        <option value="india">India</option>
+                        <option value="remote">Remote(Global)</option>
+                    </select>
+                </div>
+                <button id="calculate-btn">Calculate</button>
+                <div>
+                    <!--to display the result-->
+                </div>
+            </div>
+            <div>
+                <h2>Tech Quiz</h2>
+                <div>
+                    <div>
+                        <p>Which framework suits your development style?</p>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz" id="quiz1">
+                        <label>I prefer a large ecosystem with many solutions</label><br>
+
+                        <input type="radio" name="quiz" id="quiz2">
+                        <label> I want something balanced with good documentation</label><br>
+
+                        <input type="radio" name="quiz" id="quiz3">
+                        <label>I prefer minimal boilerplate and simplicity</label><br>
+                         
+                        <!--the name is the same for all radio buttons to group them-->
+
+                        <button id="quiz-btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Frontend To-Do List</h2>
+            <div>
+                <h3>My Learning Tasks</h3>
+                <div>
+                    <input type="text" placeholder="Add a new task" id="todo">
+                    <button id="todo1"> Add</button>
+                </div>
+                <ul>
+
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2> Developer Testimonial</h2>
+            <div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Frontend Development video</h2>
+        <div>
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/Tef1e9FiSR0" title="The Complete Frontend Developer Roadmap" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Contact Us</h2>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">      
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" rows="4"></textarea>
+            </div>
+            <div>
+                <button id="submit-btn">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <h2>CodeCraft</h2>
+                <p>Your premier destination for frontend development resources, learning, and community.</p>
+                <div>
+                    <a href="">Twitter</a>
+                    <a href="">GitHub</a>
+                    <a href="">YouTube</a>
+                    <a href="">LinkedIn</a>
+                    
+                </div>
+            </div>
+            <div>
+                <h2> Quick Links</h2>
+                <div>
+                    <ul>
+                        <li>Home</li>
+                        <li>Industry Insight</li>
+                        <li>Technology Radar</li>
+                        <li>Learning Roadmap</li>
+                        <li>Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2>Resources</h2>
+                <div>
+                    <ul>
+                        <li>Resources Library</li>
+                        <li>Blog</li>
+                        <li>Mentors</li>
+                        <li>Interview Prep</li>
+                        <li>Interactive Tools</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2>Legal</h2>
+                <div>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Cookie Policy</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div><hr>
+            <div>
+                <p>&copy; 2024 CodeCraft. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
